@@ -1,0 +1,146 @@
+.calendar-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgba(10, 25, 47, 0.9); /* Slightly lighter */
+    border-radius: 8px;
+  }
+  
+  /* Left Panel (Calendar) */
+  .calendar-left {
+    flex: 2;
+    background-color: #f4f4f4; /* Lighter background for contrast */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Calendar Header (Month and Year) */
+  .fc-toolbar {
+    background-color: rgba(10, 25, 47, 0.85); /* Slightly lighter for better readability */
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  
+  .fc-toolbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+  }
+  
+  /* "Today" Cell Styling */
+  .fc-day-today {
+    background-color: rgba(10, 25, 47, 0.7) !important;
+    color: white !important;
+    border-radius: 4px;
+  }
+  
+  /* Calendar Cells */
+  .fc-daygrid-day {
+    transition: background-color 0.3s ease;
+  }
+  
+  .fc-daygrid-day:hover {
+    background-color: rgba(10, 25, 47, 0.1);
+    cursor: pointer;
+  }
+  
+  /* Right Panel (Controls and Events) */
+  .calendar-right {
+    flex: 1;
+    background-color: #f4f4f4; /* Lighter tone */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: rgba(10, 25, 47, 0.85);
+  }
+  
+  /* Controls */
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  .control-item {
+    margin-bottom: 15px;
+  }
+  
+  .control-item label {
+    display: block;
+    font-size: 1rem;
+    color: rgba(10, 25, 47, 0.85);
+  }
+  
+  .control-item input,
+  .control-item textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+  }
+  
+  .control-item textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Add Event Button */
+  .add-event-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(10, 25, 47, 0.85); /* Slightly lighter */
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-event-btn:hover {
+    background-color: rgba(10, 25, 47, 0.7); /* Hover effect */
+  }
+  
+  /* Event List */
+  .events-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .event-item {
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .event-item .event-date {
+    font-weight: bold;
+    color: rgba(10, 25, 47, 0.85);
+  }
+  
+  .event-item .event-title {
+    color: rgba(10, 25, 47, 0.9);
+  }
+  
+  .event-item .event-description {
+    font-style: italic;
+    color: rgba(10, 25, 47, 0.7);
+  }
+  
+  .event-item:hover {
+    background-color: rgba(10, 25, 47, 0.05); /* Subtle hover background */
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 5px;
+  }
+  

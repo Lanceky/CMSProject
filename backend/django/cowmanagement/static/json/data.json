@@ -1,0 +1,129 @@
+{
+  "knowledgeHub": {
+    "categories": [
+      {
+        "id": 1,
+        "name": "Diseases",
+        "description": "Information about common cattle diseases and their treatments.",
+        "resources": [
+          {
+            "id": 1,
+            "title": "Foot and Mouth Disease",
+            "type": "Disease",
+            "content": "Foot-and-mouth disease (FMD) is a contagious viral disease that affects cloven-hoofed animals like cattle. It causes fever and blisters in the mouth, hooves, and other parts of the body. Immediate quarantine and vaccination are crucial for control.",
+            "author": "World Organization for Animal Health (OIE)",
+            "published_date": "2022-09-15",
+            "url": "https://www.oie.int/en/disease/foot-and-mouth-disease/"
+          },
+          {
+            "id": 2,
+            "title": "Bovine Tuberculosis",
+            "type": "Disease",
+            "content": "Bovine tuberculosis (bTB) is a chronic bacterial infection caused by *Mycobacterium bovis*, which primarily affects cattle, but can also affect other animals and humans. It spreads through the air when infected animals cough.",
+            "author": "Centers for Disease Control and Prevention (CDC)",
+            "published_date": "2021-12-02",
+            "url": "https://www.cdc.gov/tb/topic/bovine/index.htm"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Feeding Practices",
+        "description": "Guidelines for feeding cattle to maintain health and productivity.",
+        "resources": [
+          {
+            "id": 3,
+            "title": "Balanced Diet for Dairy Cattle",
+            "type": "Feeding Practice",
+            "content": "Dairy cattle require a balanced diet consisting of forages, grains, and protein supplements to meet their nutritional needs. High-quality silage and fresh water are essential for optimal milk production.",
+            "author": "National Dairy Council",
+            "published_date": "2023-05-12",
+            "url": "https://www.nationaldairycouncil.org/healthy-eating/feeding-dairy-cows/"
+          },
+          {
+            "id": 4,
+            "title": "Proper Nutrition for Beef Cattle",
+            "type": "Feeding Practice",
+            "content": "Beef cattle need a diet that includes high-fiber forages, grains, and vitamins. The goal is to ensure cattle grow at an optimal rate and gain weight efficiently before slaughter.",
+            "author": "American Beef Cattlemen’s Association",
+            "published_date": "2022-08-08",
+            "url": "https://www.beefusa.org/nutrition"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Hygiene",
+        "description": "Best practices for maintaining hygiene in cattle management.",
+        "resources": [
+          {
+            "id": 5,
+            "title": "Maintaining Clean Barns for Healthy Cattle",
+            "type": "Hygiene",
+            "content": "Clean barns reduce the risk of infections and improve animal welfare. Regular cleaning and disinfection of barns, feed areas, and water sources are essential to prevent the spread of diseases.",
+            "author": "American Veterinary Medical Association (AVMA)",
+            "published_date": "2021-11-18",
+            "url": "https://www.avma.org/resources-tools/animal-health-and-welfare/animal-hygiene"
+          },
+          {
+            "id": 6,
+            "title": "Importance of Grooming Cattle",
+            "type": "Hygiene",
+            "content": "Grooming cattle not only helps in maintaining good skin health but also reduces the risk of parasites. Regular brushing and bathing keep cattle clean and stress-free.",
+            "author": "Farm Animal Care Trust",
+            "published_date": "2023-03-23",
+            "url": "https://www.farmanimalcare.org.uk/grooming-cattle/"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Animal Welfare",
+        "description": "Guidelines for improving the welfare and health of cattle.",
+        "resources": [
+          {
+            "id": 7,
+            "title": "Cattle Welfare in Hot Weather",
+            "type": "Welfare Tip",
+            "content": "During hot weather, cattle are at risk of heat stress. Ensure adequate access to clean water, provide shaded areas, and avoid transportation during peak heat hours.",
+            "author": "Humane Society International",
+            "published_date": "2022-06-15",
+            "url": "https://www.hsi.org/issues/animal-welfare-in-hot-weather/"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Breed Information",
+        "description": "Information on different cattle breeds and their characteristics.",
+        "resources": [
+          {
+            "id": 8,
+            "title": "Holstein Cattle Characteristics",
+            "type": "Breed Info",
+            "content": "Holstein cattle are known for their excellent milk production. They are the most common dairy breed in the world, characterized by black-and-white markings.",
+            "author": "International Dairy Federation",
+            "published_date": "2021-09-07",
+            "url": "https://www.idf.org/holstein-cattle/"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Cattle Health",
+        "description": "Articles on ensuring good health for cattle.",
+        "resources": [
+          {
+            "id": 9,
+            "title": "Preventing Common Cattle Diseases",
+            "type": "Health",
+            "content": "Vaccination and biosecurity measures are essential to prevent diseases like Bovine Respiratory Disease (BRD) and Johne's disease in cattle.",
+            "author": "World Health Organization (WHO)",
+            "published_date": "2021-10-10",
+            "url": "https://www.who.int/cattle-health"
+          }
+        ]
+      }
+    ]
+  }
+}

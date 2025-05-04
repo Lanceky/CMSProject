@@ -1,0 +1,461 @@
+/* Main Container */
+.vet-services-container {
+    display: flex;
+    flex-wrap: wrap;
+    min-height: calc(100vh - 40px);
+    padding: 20px;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Shared Panel Styles */
+  .vet-list-panel,
+  .schedules-panel {
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .vet-list-panel {
+    flex: 1;
+    max-width: 350px;
+  }
+  
+  .schedules-panel {
+    flex: 2;
+  }
+  
+  /* Panel Titles */
+  .panel-title {
+    color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #eaeaea;
+  }
+  
+  /* Forms */
+  .add-vet-form,
+  .add-schedule-form {
+    
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .add-vet-form input{
+    padding: 12px 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #2c3e50;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+  }
+  /* Main Container */
+.vet-services-container {
+    display: flex;
+    min-height: calc(100vh - 40px);
+    padding: 20px;
+    gap: 20px;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  /* Shared Panel Styles */
+  .vet-list-panel,
+  .schedules-panel {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow-y: auto;
+  }
+  
+  .vet-list-panel {
+    flex: 1;
+    max-width: 350px;
+  }
+  
+  .schedules-panel {
+    flex: 2;
+  }
+  
+  /* Panel Titles */
+  .panel-title {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  /* Input Fields */
+.add-vet-form input,
+.add-schedule-form input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+  color: #2c3e50; /* Ensures text is visible */
+  background-color: #ffffff; /* Default white background */
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.add-vet-form input:focus,
+.add-schedule-form input:focus {
+  background-color: #f9f9f9; /* Slightly off-white for focus state */
+  border-color: #3498db; /* Blue border to indicate focus */
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.4); /* Subtle shadow for focus */
+  outline: none; /* Removes the default outline */
+}
+
+.add-vet-form input::placeholder,
+.add-schedule-form input::placeholder {
+  color: #7f8c8d; /* Placeholder text color for contrast */
+}
+
+  
+  /* Buttons */
+  .primary-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .primary-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.02);
+  }
+  
+  .primary-button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Lists */
+  .vet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vet-item {
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eaeaea;
+  }
+  
+  .vet-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .vet-item.active {
+    background-color: #e3f2fd;
+    border-color: #bbdefb;
+  }
+  
+  .vet-info h3 {
+    margin: 0 0 5px 0;
+    color: #2c3e50;
+  }
+  
+  .vet-info p {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 14px;
+  }
+  
+  /* Schedules List */
+  .schedules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .schedule-item {
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #f8f9fa;
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .schedule-date {
+    font-weight: 500;
+    color: #2c3e50;
+  }
+  
+  .schedule-time {
+    color: #7f8c8d;
+  }
+  
+  .schedule-purpose {
+    color: #34495e;
+    font-size: 14px;
+  }
+  
+  .schedule-item .delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Loading and Empty States */
+  .loading-indicator,
+  .empty-state {
+    padding: 20px;
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+  }
+  
+  /* Error Message */
+  .error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .error-dismiss {
+    background: none;
+    border: none;
+    color: #c62828;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0 0 0 10px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .vet-services-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .vet-list-panel,
+    .schedules-panel {
+      max-width: 100%;
+    }
+  
+    .add-schedule-form {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+ 
+  
+
+  
+  /* Buttons */
+  .primary-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.2s ease;
+  }
+  
+  .primary-button:hover {
+    background-color: #2980b9;
+  }
+  
+  .primary-button:disabled {
+    background-color: #95a5a6;
+    cursor: not-allowed;
+  }
+  
+  .delete-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: all 0.2s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c0392b;
+  }
+  
+  /* Lists */
+  .vet-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .vet-item {
+    padding: 15px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #eaeaea;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .vet-item:hover {
+    background-color: #f0f8ff;
+  }
+  
+  .vet-item.active {
+    background-color: #e3f2fd;
+    border-color: #42a5f5;
+  }
+  
+  .vet-info h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #2c3e50;
+  }
+  
+  .vet-info p {
+    margin: 0;
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  /* Schedules List */
+  .schedules-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .schedule-item {
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #ffffff;
+    border: 1px solid #eaeaea;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .schedule-item:hover {
+    background-color: #f9f9f9;
+    border-color: #bbb;
+  }
+  
+  .schedule-date {
+    font-weight: 500;
+    color: #2c3e50;
+  }
+  
+  .schedule-time {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+  }
+  
+  .schedule-purpose {
+    color: #34495e;
+    font-size: 0.9rem;
+  }
+  
+  .schedule-item .delete-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  
+  /* Loading and Empty States */
+  .loading-indicator,
+  .empty-state {
+    padding: 20px;
+    text-align: center;
+    color: #7f8c8d;
+    font-style: italic;
+  }
+  
+  /* Error Message */
+  .error-message {
+    background-color: #ffebee;
+    color: #c62828;
+    padding: 12px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .error-dismiss {
+    background: none;
+    border: none;
+    color: #c62828;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 0;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .vet-services-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .vet-list-panel,
+    .schedules-panel {
+      max-width: 100%;
+    }
+  
+    .add-schedule-form {
+      grid-template-columns: 1fr;
+    }
+  }
+  
